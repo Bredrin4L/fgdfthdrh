@@ -1,15 +1,13 @@
 # BUDA Auto Styling — Part 3 Portfolio Website
 
-## Project overview
+Project overview
 BUDA Auto Styling is a student website concept for an automotive styling shop featuring suspension, wheel fitment, alignment and car-care product categories. The project extends the earlier multi-page site with JavaScript interactions, on-page SEO improvements and basic technical SEO files.
 
-## Student details
-- **Student name:** [Add your name]
-- **Student number:** [Add your student number]
-- **Module:** [Add module name]
-- **Assessment:** Website POE — Part 3
+Bophelo Buda
+ST10458605
+WEDEPOE PART 3
 
-## Run locally
+Run locally
 1. Download or clone this repository.
 2. Open the project folder in Visual Studio Code.
 3. Open `index.html` in a browser, or use the Live Server extension for a local preview.
