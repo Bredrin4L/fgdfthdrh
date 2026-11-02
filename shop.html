@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse wheel styles, air suspension components, coilover kits and car-care products featured by BUDA Auto Styling.">
+  <title>Wheels & Suspension Products | BUDA Auto Styling</title>
+  <meta name="theme-color" content="#101110">
+  <meta property="og:title" content="Wheels & Suspension Products | BUDA Auto Styling">
+  <meta property="og:description" content="Browse wheel styles, air suspension components, coilover kits and car-care products featured by BUDA Auto Styling.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="site-nav" aria-label="Main navigation">
+  <a class="brand" href="index.html"><img src="images/logo.png" alt="BUDA Auto Styling logo"></a>
+  <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="shop.html" aria-current="page">Shop</a>
+    <a class="nav-cta" href="contact.html">Contact Us</a>
+  </div>
+</nav>
+
+<main>
+  <section class="page-hero">
+    <p class="eyebrow">THE SHOP</p>
+    <h1>Parts that make<br><span>the build.</span></h1>
+    <p>Browse the types of products available through BUDA Auto Styling. Product availability and pricing can be confirmed with the shop.</p>
+  </section>
+
+  <section class="section">
+    <div class="shop-tools" aria-label="Product search and sorting">
+      <label for="product-search">Find a product</label><input id="product-search" type="search" placeholder="Search wheels, suspension, car care…" autocomplete="off">
+      <label for="product-sort">Sort products</label><select id="product-sort"><option value="default">Featured first</option><option value="az">Name: A to Z</option><option value="za">Name: Z to A</option></select>
+      <p id="product-count" class="result-count" aria-live="polite">Showing 4 product categories</p>
+    </div>
+    <div class="product-grid" id="product-grid">
+      <article class="product-card" data-name="Performance & Style Wheels" data-category="wheels"><div class="product-visual"><img src="images/wheels.jpg" alt="Selection of wheels and tyres"></div><div class="product-info"><p class="eyebrow">WHEELS</p><h3>Performance & Style Wheels</h3><p>Choose a wheel design and size to match your build and fitment goals.</p></div></article>
+      <article class="product-card" data-name="Air Suspension Components" data-category="suspension"><div class="product-visual"><img src="images/air-suspension.jpg" alt="Air suspension components"></div><div class="product-info"><p class="eyebrow">SUSPENSION</p><h3>Air Suspension Components</h3><p>Components for adjustable suspension setups and stance builds.</p></div></article>
+      <article class="product-card" data-name="Cleaning & Detailing" data-category="car care"><div class="product-visual"><img src="images/car-care.jpg" alt="Car care and detailing products"></div><div class="product-info"><p class="eyebrow">CAR CARE</p><h3>Cleaning & Detailing</h3><p>Car-care products to keep wheels, paint and interiors looking their best.</p></div></article>
+      <article class="product-card" data-name="Coilover Kits" data-category="suspension"><div class="product-visual"><img src="images/coilovers.jpg" alt="Coilover suspension kit"></div><div class="product-info"><p class="eyebrow">COILOVERS</p><h3>Coilover Kits</h3><p>Adjustable suspension options for street and stance applications.</p></div></article>
+    </div>
+    <p id="no-products" class="empty-state" hidden>No products match that search. Try another term.</p>
+  </section>
+</main>
+
+<footer class="footer">
+  <div>
+    <a class="brand" href="index.html"><img src="images/logo.png" alt="BUDA Auto Styling logo"></a>
+    <p>Suspension. Wheels. Stance. Care.</p>
+  </div>
+  <div class="footer-links">
+    <a href="services.html">Services</a>
+    <a href="shop.html" aria-current="page">Shop</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <p class="copyright">© 2026 BUDA Auto Styling. Student project.</p>
+</footer>
+
+  <script src="js/main.js" defer></script>
+</body></html>

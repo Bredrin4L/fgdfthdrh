@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Replace the example base URL with the final published site URL before deployment. -->
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/</loc></url>
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/about.html</loc></url>
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/services.html</loc></url>
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/shop.html</loc></url>
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/contact.html</loc></url>
+</urlset>

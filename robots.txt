@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace the example URL with the published GitHub Pages or Netlify URL.
+Sitemap: https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/sitemap.xml
